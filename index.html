@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Pig Latin</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pig Latin Translator</h1>
+      <form>
+        <div class="form-group">
+          <label for="words">Add your sentence that you wish to be translated to Pig Latin here:</label>
+          <input type="text" class="form-control" id="words">
+        </div>
+
+        <button class="btn btn-info btn-lg btn-block" type="submit">Submit!</button>
+      </form>
+      <div id="display">
+        <p>This is your translated sentence:</p>
+        <p id="result"></p>
+      </div>
+    </div>
+  </body>
+</html>
